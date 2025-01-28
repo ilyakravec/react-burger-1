@@ -1,0 +1,79 @@
+.craft {
+	&-wrapper {
+		height: 756px;
+	}
+
+	&-basket {
+		height: 656px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	&-overflow {
+		overflow-y: scroll;
+	}
+
+	&__title {
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 1.1;
+	}
+
+	&__inner {
+		display: grid;
+		grid-template: 1fr/ 1fr 1fr;
+		column-gap: 40px;
+	}
+
+	&__subtitle {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 1.1;
+	}
+
+	&__list {
+		display: grid;
+		grid-template: 1fr / 1fr 1fr;
+		row-gap: 32px;
+	}
+
+	&__basket {
+		height: 656px;
+	}
+
+	&__orderSum {
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+	}
+
+}
+
+
+
+.craftbar {
+	&__order {
+		display: flex;
+		justify-content: flex-end;
+		column-gap: 40px;
+	}
+}
+
+.constructor__items {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	&__wrapper {
+		display: flex;
+		justify-content: flex-end;
+		column-gap: 8px;
+
+		&:first-child,
+		&:last-child {
+			margin-left: 32px;
+		}
+
+	}
+}

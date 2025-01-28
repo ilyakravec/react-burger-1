@@ -1,0 +1,40 @@
+body {
+	font-size: 16px;
+	font-family: "Jet Brains Mono";
+	font-weight: 400;
+	line-height: 1.5;
+
+	color: var(--main-light);
+	background-color: var(--main-bg);
+
+
+}
+
+
+* {
+	scrollbar-width: thin !important;
+	scrollbar-color: #8585AD #2F2F37 !important;
+
+	&::-webkit-scrollbar-button:decrement,
+	::-webkit-scrollbar-button:increment {
+		width: 0px !important;
+	}
+}
+
+.container {
+	width: 100%;
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.main__block__container {
+	display: flex;
+	gap: 20px;
+	align-items: stretch;
+}
+
+.main__block__container__column {
+	flex: 1;
+	padding: 20px;
+}
